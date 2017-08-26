@@ -1,10 +1,10 @@
 import { expect } from 'chai';
-import * as funcs from './ch1-q3';
+import * as funcs from '../../code/01-strings-arrays/03-URLify';
 
 for (let key in funcs) {
   let func = funcs[key];
 
-  xdescribe('ch1-q3: ' + key, function() {
+  describe('ch1-q3: ' + key, function() {
 
     it('works with null/undefined as input', function() {
       expect(func(undefined)).to.be.undefined;
