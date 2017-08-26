@@ -16,4 +16,4 @@ let options = {
 //options.alwaysWarn = false; // Defaults to true, always show warnings
 
 // Run the tests
-lint(paths, options);
+// lint(paths, options);

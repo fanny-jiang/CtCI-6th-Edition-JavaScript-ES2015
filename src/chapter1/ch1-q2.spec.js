@@ -1,10 +1,10 @@
 import { expect } from 'chai';
-import * as funcs from './ch1-q2';
+import * as funcs from '../../code/01-strings-arrays/02-checkPermutation';
 
 for (let key in funcs) {
   let func = funcs[key];
 
-  xdescribe('ch1-q2: ' + key, function() {
+  describe('ch1-q2: ' + key, function() {
 
     [
       ['abcdefghi', 'ihgfedcba'],
