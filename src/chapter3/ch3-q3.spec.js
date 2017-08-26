@@ -4,7 +4,7 @@ import * as classes from './ch3-q3';
 for (let key in classes) {
   let Stack = classes[key];
 
-  describe('ch3-q3: ' + key, function() {
+  xdescribe('ch3-q3: ' + key, function() {
 
     beforeEach(function() {
       this.stack = new Stack(4);

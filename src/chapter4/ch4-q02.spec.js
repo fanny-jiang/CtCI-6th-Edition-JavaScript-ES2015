@@ -5,7 +5,7 @@ import * as funcs from './ch4-q02';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch4-q02: ' + key, function() {
+  xdescribe('ch4-q02: ' + key, function() {
 
     it('returns empty tree with no values', function() {
       let tree = func(null);

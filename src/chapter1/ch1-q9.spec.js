@@ -4,7 +4,7 @@ import * as funcs from './ch1-q9';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch1-q9: ' + key, function() {
+  xdescribe('ch1-q9: ' + key, function() {
 
     it('throws an error when either string is null/undefined/empty', function() {
       expect(() => func(null, 'abc')).to.throw('invalid input');

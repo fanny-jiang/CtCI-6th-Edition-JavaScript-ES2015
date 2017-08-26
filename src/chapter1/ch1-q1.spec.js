@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import * as funcs from './ch1-q1';
+import * as funcs from '../../code/01-strings-arrays/01-isUnique';
 
 for (let key in funcs) {
   let func = funcs[key];

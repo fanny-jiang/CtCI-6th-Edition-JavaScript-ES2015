@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 import {
   Suit
 } from './Suit.js';

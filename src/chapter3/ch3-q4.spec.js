@@ -4,7 +4,7 @@ import * as classes from './ch3-q4';
 for (let key in classes) {
   let Queue = classes[key];
 
-  describe('ch3-q4: ' + key, function() {
+  xdescribe('ch3-q4: ' + key, function() {
 
     beforeEach(function() {
       this.queue = new Queue();

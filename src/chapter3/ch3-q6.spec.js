@@ -4,7 +4,7 @@ import * as classes from './ch3-q6';
 for (let key in classes) {
   let AnimalShelter = classes[key];
 
-  describe('ch3-q6: ' + key, function() {
+  xdescribe('ch3-q6: ' + key, function() {
 
     beforeEach(function() {
       this.obj = new AnimalShelter();

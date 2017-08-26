@@ -5,7 +5,7 @@ import * as funcs from './ch2-q8';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch2-q8: ' + key, function() {
+  xdescribe('ch2-q8: ' + key, function() {
 
     beforeEach(function() {
       this.list = helpers.createLinkedList();

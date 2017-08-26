@@ -13,7 +13,7 @@ function generateList(length) {
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch2-q7: ' + key, function() {
+  xdescribe('ch2-q7: ' + key, function() {
 
     it('correctly identifies first node when both lists are the same', function() {
       let list = generateList(10);

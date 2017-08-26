@@ -5,7 +5,7 @@ import * as funcs from './ch4-q05';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch4-q05: ' + key, function() {
+  xdescribe('ch4-q05: ' + key, function() {
 
     beforeEach(function() {
       this.tree = new Tree();

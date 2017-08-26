@@ -4,7 +4,7 @@ import * as funcs from './ch3-q5';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch3-q5: ' + key, function() {
+  xdescribe('ch3-q5: ' + key, function() {
 
     it('does not crash on an empty list', function() {
       let stack = [];

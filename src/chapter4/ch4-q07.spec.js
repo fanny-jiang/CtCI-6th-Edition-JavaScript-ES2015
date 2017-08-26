@@ -4,7 +4,7 @@ import * as funcs from './ch4-q07';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch4-q07: ' + key, function() {
+  xdescribe('ch4-q07: ' + key, function() {
 
     it('returns project where there is only one project', function() {
       expect(func([11], [])).to.eql([11]);

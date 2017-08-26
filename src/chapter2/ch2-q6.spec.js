@@ -5,7 +5,7 @@ import * as funcs from './ch2-q6';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch2-q6: ' + key, function() {
+  xdescribe('ch2-q6: ' + key, function() {
 
     [
       [1, 2, 1],

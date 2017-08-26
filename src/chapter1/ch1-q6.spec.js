@@ -4,7 +4,7 @@ import * as funcs from './ch1-q6';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch1-q6: ' + key, function() {
+  xdescribe('ch1-q6: ' + key, function() {
 
     it('returns input where null/undefined', function() {
       expect(func(null)).to.be.null;

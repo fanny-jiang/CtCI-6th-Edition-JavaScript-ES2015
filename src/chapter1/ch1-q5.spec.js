@@ -4,7 +4,7 @@ import * as funcs from './ch1-q5';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch1-q5: ' + key, function() {
+  xdescribe('ch1-q5: ' + key, function() {
 
     it('returns true for the same string', function() {
       let str = 'abcdef';

@@ -5,7 +5,7 @@ import * as funcs from './ch2-q2';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch2-q2: ' + key, function() {
+  xdescribe('ch2-q2: ' + key, function() {
 
     it('throws an error if list is not an array', function() {
       expect(() => func(null)).to.throw('invalid list');

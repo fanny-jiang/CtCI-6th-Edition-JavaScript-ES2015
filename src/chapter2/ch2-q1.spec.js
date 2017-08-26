@@ -5,7 +5,7 @@ import * as funcs from './ch2-q1';
 for (let key in funcs) {
   let func = funcs[key];
 
-  describe('ch2-q1: ' + key, function() {
+  xdescribe('ch2-q1: ' + key, function() {
 
     it('returns input if falsy', function() {
       expect(func(null)).to.be.null;

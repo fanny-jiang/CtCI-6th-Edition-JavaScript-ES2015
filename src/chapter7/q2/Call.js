@@ -1,5 +1,5 @@
 import {Rank} from './Rank';
-
+/* eslint-disable no-console */
 export class Call {
   constructor(c) {
     /* Minimal rank of employee who can handle this call. */
