@@ -1,11 +1,11 @@
 import { expect } from 'chai';
 import * as helpers from './helpers';
-import * as funcs from './ch2-q2';
+import * as funcs from '../../code/02-linked-lists/02-returnKthToLast';
 
 for (let key in funcs) {
   let func = funcs[key];
 
-  xdescribe('ch2-q2: ' + key, function() {
+  describe('ch2-q2: ' + key, function() {
 
     it('throws an error if list is not an array', function() {
       expect(() => func(null)).to.throw('invalid list');
