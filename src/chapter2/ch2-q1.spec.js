@@ -1,11 +1,11 @@
 import { expect } from 'chai';
 import * as helpers from './helpers';
-import * as funcs from './ch2-q1';
+import * as funcs from '../../code/02-linked-lists/01-removeDuplicates';
 
 for (let key in funcs) {
   let func = funcs[key];
 
-  xdescribe('ch2-q1: ' + key, function() {
+  describe('ch2-q1: ' + key, function() {
 
     it('returns input if falsy', function() {
       expect(func(null)).to.be.null;
