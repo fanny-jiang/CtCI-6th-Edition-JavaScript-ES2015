@@ -1,10 +1,10 @@
 import { expect } from 'chai';
-import * as funcs from './ch1-q4';
+import * as funcs from '../../code/01-strings-arrays/04-palindromePermutation';
 
 for (let key in funcs) {
   let func = funcs[key];
 
-  xdescribe('ch1-q4: ' + key, function() {
+  describe('ch1-q4: ' + key, function() {
 
     it('returns false with null/undefined as input', function() {
       expect(func(undefined)).to.be.false;
