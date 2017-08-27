@@ -1,11 +1,11 @@
 import { expect } from 'chai';
 import * as helpers from './helpers';
-import * as funcs from './ch2-q3';
+import * as funcs from '../../code/02-linked-lists/03-deleteMiddleNode';
 
 for (let key in funcs) {
   let func = funcs[key];
 
-  xdescribe('ch2-q3: ' + key, function() {
+  describe('ch2-q3: ' + key, function() {
 
     it('throws an error if node is invalid', function() {
       expect(() => func(null)).to.throw('invalid node');
