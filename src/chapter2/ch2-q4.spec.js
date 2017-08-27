@@ -1,11 +1,11 @@
 import { expect } from 'chai';
 import * as helpers from './helpers';
-import * as funcs from './ch2-q4';
+import * as funcs from '../../code/02-linked-lists/04-partition';
 
 for (let key in funcs) {
   let func = funcs[key];
 
-  xdescribe('ch2-q4: ' + key, function() {
+  describe('ch2-q4: ' + key, function() {
 
     [
       {
