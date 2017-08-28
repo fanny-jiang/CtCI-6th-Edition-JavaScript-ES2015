@@ -21,6 +21,7 @@ export class StackOfStacks {
   }
 
   push(value) {
+    // if the last stack has reached capacity, add a new empty stack to the end
     if (this.stacks[this.stacks.length - 1].length >= this.max) {
       this.stacks.push([]);
     }

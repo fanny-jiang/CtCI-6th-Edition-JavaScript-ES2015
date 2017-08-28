@@ -1,10 +1,10 @@
 import { expect } from 'chai';
-import * as classes from './ch3-q1';
+import * as classes from '../../code/03-stacks-queues/01-threeInOne';
 
 for (let key in classes) {
   let Stack = classes[key];
 
-  xdescribe('ch3-q1: ' + key, function() {
+  describe('ch3-q1: ' + key, function() {
 
     beforeEach(function() {
       this.stack = new Stack();
