@@ -43,6 +43,7 @@ module.exports = ThreeStacks;
 
 /*
 How you would use a single array to implement 3 stacks?
-- each end of the array can be the top of a different stack
-- or each element in the array can be a linkedlist stack
+- interleave the values every 3 spaces in the array
+- time: pop, push, peek O(1)
+- space: pop, push, peek O(1)
 */
